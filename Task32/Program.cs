@@ -55,7 +55,7 @@ bool findExist(int[] arr, int wanted)
 
 for (int i =0; i <= arr.Length-1; i++)
 {
-    if (arr[i] == wanted || arr[i] == wanted*(-1))
+    if (arr[i] == wanted)
     {
        Console.WriteLine($"Число {wanted} входит в данный массив");
        return true;
